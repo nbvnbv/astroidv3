@@ -1,5 +1,5 @@
 import http from 'node:http';
-import { createBareServer } from './bare-server-node/dist/createServer.js';
+import { createBareServer } from 'bare-server-node';
 
 const httpServer = http.createServer();
 
