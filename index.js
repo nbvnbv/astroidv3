@@ -1,4 +1,4 @@
-import { createBareServer } from '@tomphttp/bare-server-node';
+import { createBareServer } from './bare-server-node/dist/createServer.js';
 import express from "express";
 import { createServer } from "node:http";
 import { SocksProxyAgent } from 'socks-proxy-agent';
